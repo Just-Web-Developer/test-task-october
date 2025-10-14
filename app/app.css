@@ -1,0 +1,25 @@
+@import url("/app/assets/styles/fonts.css");
+@import "tailwindcss";
+
+
+@theme {
+  --font-sans: "Tektur", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+  --font-tactic: "Tactic Sans";
+  --font-tacticexd: "Tactic Sans Exd";
+  --font-firsneue: "TT Firs Neue";
+  --font-backwards: "TT Backwards";
+  --color-primary: #FFF;
+  --color-primary-bg: #DD3030;
+}
+
+.home-screen{
+  background: url(/app/assets/images/home-background.jpg) lightgray 50% / cover no-repeat;
+}
+
+
+
+
+html,
+body {
+  background: #0D0D0D;
+}

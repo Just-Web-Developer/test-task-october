@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Tactic Sans";
+    src: url(/app/assets/fonts/TacticSans-Med.otf) format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Tactic Sans";
+    src: url(/app/assets/fonts/TacticSans-Bld.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Tactic Sans";
+    src: url(/app/assets/fonts/TacticSans-Blk.otf) format("opentype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Tactic Sans Exd";
+    src: url(/app/assets/fonts/TacticSansExd-Med.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Tactic Sans Exd";
+    src: url(/app/assets/fonts/TacticSansExd-Blk.woff2) format("woff2");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Tactic Sans Exd";
+    src: url(/app/assets/fonts/TacticSansExd-Ult.woff2) format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Tektur';
+    font-style: normal;
+    font-weight: 400 900;
+    font-stretch: 75% 100%;
+    font-display: swap;
+    src: url(/app/assets/fonts/Tektur/Tektur-VariableFont_wdth,wght.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url(/app/assets/fonts/TT_Firs_Neue_Variable.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "TT Backwards";
+    src: url(/app/assets/fonts/TT-Backwards-Sans-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
