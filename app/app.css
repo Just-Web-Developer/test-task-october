@@ -17,9 +17,12 @@
 }
 
 
-
+.faq-item{
+  box-sizing: border-box;
+}
 
 html,
 body {
   background: #0D0D0D;
+  overflow-x: hidden;
 }
