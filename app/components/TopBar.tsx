@@ -10,7 +10,7 @@ export function TopBar() {
         <div className="absolute top-0 grid grid-cols-2 items-center w-full px-6 py-[1.125rem] ">
             <div className="left-part flex ">
                 <Logo/>
-                <p className="description hidden lg:flex ml-[71.25px] 2xl:ml-[191.4px] font-semibold text-[14px] leading-[20px] w-52 text-primary">{t('home.header.description')}</p>
+                <p className="description hidden lg:flex ml-[71.25px] 2xl:ml-[191.4px] font-semibold text-[14px] leading-[20px] w-52 text-primary -mt-1">{t('home.header.description')}</p>
             </div>
             <div className="right-part flex justify-end">
                 <div className="desktop-content hidden lg:flex justify-between w-full">
