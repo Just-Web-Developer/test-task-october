@@ -10,17 +10,13 @@ export function meta({}: Route.MetaArgs) {
     const {t} = useTranslation();
     return [
         {title: t("home.title")},
-        {name: "description", content: t("home.description")},
+        {name: "description", content: t("home.meta.description")},
     ];
 }
 
 export default function Home() {
-    const {t} = useTranslation();
     return (
-        <div className="pb-20">
-            {/*<div className="fixed right-6 top-6 z-50">*/}
-            {/*    <Button type="button" text={t('home.fillFormButton')}/>*/}
-            {/*</div>*/}
+        <div>
             <HomeHeader/>
             <Services/>
             <FAQ/>

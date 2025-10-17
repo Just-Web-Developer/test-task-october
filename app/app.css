@@ -9,7 +9,12 @@
   --font-firsneue: "TT Firs Neue";
   --font-backwards: "TT Backwards";
   --color-primary: #FFF;
-  --color-primary-bg: #DD3030;
+  --color-secondary: #000;
+  --color-primary-bg: #FFF;
+  --color-secondary-bg: #DD3030;
+
+
+  --breakpoint-2xl: 120rem;
 }
 
 .home-screen{

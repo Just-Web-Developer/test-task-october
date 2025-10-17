@@ -6,21 +6,21 @@ export function ServiceItem(props: { itemData: {
         id: string,
         icon: string,
         iconHover: string,
-        bgColorClass: string,
+        bgColorHoverClass: string,
         textColorClass: string,
     }; }) {
     let {
         id,
         icon,
         iconHover,
-        bgColorClass,
+        bgColorHoverClass,
         textColorClass,
     } = props.itemData
     const {t} = useTranslation();
 
     return (
         <div
-            className={`tab flex flex-col justify-center items-center gap-6 group bg-transparent ${bgColorClass} ${textColorClass} h-[60vh] w-[20%] hover:w-[45%] transition-all duration-500 not-last:border-r-1 border-white/20`}>
+            className={`tab flex flex-col justify-center items-center gap-6 group bg-transparent ${bgColorHoverClass} ${textColorClass} h-[60vh] w-[20%] hover:w-[45%] transition-all duration-500 not-last:border-r-1 border-white/20`}>
             <div className="content flex flex-col justify-center items-center w-[16.25rem]">
                 <div className="structureImageContainer relative">
                     <img className="structure-item-image opacity-100 group-hover:opacity-0 transition-all duration-500 w-[125px] h-[125px]"

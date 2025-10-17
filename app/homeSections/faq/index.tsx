@@ -10,7 +10,9 @@ export function FAQ(){
     faqItems = faqItems.map((faqItem, i) => {
         faqItem.borderStyles = []
         if (i !== faqItems.length - 1) faqItem.borderStyles.push('border-b-1')
-        if ((i + 1) % 3 !== 0) faqItem.borderStyles.push('border-r-1')
+        if ((i + 1) % 3 !== 0) faqItem.borderStyles.push('md:border-r-1')
+        else faqItem.borderStyles.push('border-r-0')
+        if ((i + 1) % 2 !== 0) faqItem.borderStyles.push('sm:border-r-1')
         if (i >= lastIndexWithBottom) faqItem.borderStyles.push('md:border-b-0')
 
 
@@ -21,7 +23,7 @@ export function FAQ(){
     return (
         <section>
             <SectionHeader text={t("home.faq.sectionName")}/>
-            <div className="grid grid-cols-1 md:grid-cols-3 border-white/20 border-t-1 border-b-1 mb-10 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 border-white/20 border-t-1 border-b-1">
                 {faqItems.map((faqItem, i) => {
                     return (
                         <FAQItem key={i} question={faqItem.question} answer={faqItem.answer} borderStyles={faqItem.borderStyles}/>

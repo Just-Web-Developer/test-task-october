@@ -1,18 +1,42 @@
 {
   "title": "MOUNTY",
+  "navbar": [
+    {
+      "text": "Ціни",
+      "link": ""
+    },
+    {
+      "text": "Про Маунті",
+      "link": ""
+    },
+    {
+      "text": "Спорядження",
+      "link": ""
+    },
+    {
+      "text": "Маршрути",
+      "link": ""
+    },
+    {
+      "text": "FAQ",
+      "link": ""
+    }
+  ],
   "home": {
-    "title": "Test site",
+    "title": "MOUNTY | Сервіс подорожей кращими місцями Карпат",
     "meta": {
-      "description": "Test meta description"
+      "description": "Сервіс подорожей кращими місцями Карпат"
     },
     "fillFormButton": "Заповнити анкету",
     "header": {
-      "h1": ""
+      "description": "Сервіс подорожей кращими місцями Карпат"
     },
     "motto": {
-      "definition": "",
-      "motto": [""],
-      "mottoAuthor": ""
+      "motto": [
+        "МААААМ, Я",
+        "В КАРПАТИ"
+      ],
+      "buttonText": "ДІЗНАТИСЯ БІЛЬШЕ"
     },
     "services": {
       "sectionName": "ПОСЛУГИ",
