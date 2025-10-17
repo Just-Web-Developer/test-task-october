@@ -88,13 +88,13 @@ export function Services() {
                 <div className="all-services flex w-full">
                     {serviceItems.map((item, i) => {
                         return (
-                            <div onClick={() => cardTapHandler(i)} className={`flex justify-center items-center transition-all duration-500 w-full p-4 not-last:border-r-1 border-white/20 ${activeCard === i ? item.bgColorClass : 'bg-transparent'}`}>
+                            <div onClick={() => cardTapHandler(i)} className={`flex justify-center items-center transition-all duration-200 w-full p-4 not-last:border-r-1 border-white/20 ${activeCard === i ? item.bgColorClass : 'bg-transparent'}`}>
                                 <img src={activeCard === i ? item.iconHover : item.icon} className="w-12 h-12" alt=""/>
                             </div>
                         )
                     })}
                 </div>
-                <div className={`transition-all duration-500 active-service flex flex-col gap-6 justify-center items-center px-[55px] py-[87.5px] ${serviceItems[activeCard].bgColorClass}`}>
+                <div className={`transition-all duration-200 active-service flex flex-col gap-6 justify-center items-center px-[55px] py-[87.5px] ${serviceItems[activeCard].bgColorClass}`}>
                     <img className="w-40 h-40" src={serviceItems[activeCard].iconHover} alt=""/>
                     <p className="h-8 text-primary font-semibold uppercase text-base leading-none tracking-[-0.36px] text-center">{t(`home.services.items.${serviceItems[activeCard].id}.header`)}</p>
                 </div>

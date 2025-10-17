@@ -14,7 +14,7 @@ export function LangSelector(){
         <div className="flex uppercase font-bold leading-none text-[12px] font-firsneue">
             {availableLangs.map((lang) => {
                 return (
-                    <a key={lang.id} href="" className={`${activeLang === lang.id ? "bg-primary text-secondary" : "text-primary bg-transparent hover:bg-secondary-bg"} lang-item px-1 py-1.5 w-12 text-center transition-all duration-500`}>{lang.name}</a>
+                    <a key={lang.id} href="" className={`${activeLang === lang.id ? "bg-primary text-secondary" : "text-primary bg-transparent hover:bg-secondary-bg"} lang-item px-1 py-1.5 w-12 text-center transition-all duration-200`}>{lang.name}</a>
                 )
             })}
 
