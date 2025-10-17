@@ -6,10 +6,10 @@ export function Navbar() {
     let navItems = [...t('navbar', {returnObjects: true})];
 
     return (
-        <nav className="hidden lg:flex flex-col absolute top-1/2 left-6 transform -translate-y-1/2 z-10 text-primary">
+        <nav className="hidden lg:flex flex-col absolute top-1/2 left-6 transform -translate-y-1/2 z-10 text-primary uppercase font-bold text-base font-firsneue">
             {navItems.map((item) => {
                 return (
-                    <a key={item.link} className="uppercase transition-all duration-200 p-2 hover:bg-secondary-bg" href={item.link}>{item.text}</a>
+                    <a key={item.link} className="transition-all duration-200 p-2 hover:bg-secondary-bg" href={item.link}>{item.text}</a>
                 )
             })}
         </nav>
